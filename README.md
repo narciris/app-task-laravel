@@ -12,7 +12,7 @@ Crear una API con Laravel que permita:
 ## 🧰 Tecnologías utilizadas
 
 - PHP 8.x
-- Laravel 10.x
+- Laravel 11.x
 - MySQL o SQLite
 - Laravel Sanctum (para autenticación API)
 - Postman o Insomnia para pruebas
@@ -44,4 +44,4 @@ Este proyecto está orientado a guitarristas de jazz que quieren organizar su ru
 
 ---
 
-Hecho con ❤️ por un amante del jazz y la programación.
+Hecho con ❤️ por Narciris una amante del jazz y la programación.
