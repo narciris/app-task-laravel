@@ -1,0 +1,48 @@
+GET http://localhost:8000/api/login
+Accept: application/json
+Content-Type: application/json
+
+
+### obtener todas las tareas
+
+GET http://localhost:8000/api/tasks
+Accept: application/json
+Content-Type: application/json
+
+### crear tareas
+
+POST http://localhost:8000/api/create
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 2|9p3T3AAtXR0nBDa89YkVWa6JSW2I0yZ7lwt5ruwD0deb9eda
+
+{
+    "title": "tarea 3",
+    "description": "describamos esta tarea que esta bien",
+    "due_date": "2025-05-25"
+}
+
+
+### registrar usuario
+POST http://localhost:8000/api/register
+Accept: application/json
+Content-Type: application/json
+
+
+{
+    "name": "maria",
+    "email": "maria@example.com",
+    "password": "123456",
+    "password_confirmation": "123456"
+}
+
+
+### logearse
+POST http://localhost:8000/api/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "maria@example.com",
+    "password": "123456"
+}
